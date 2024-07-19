@@ -7,10 +7,10 @@ Este projeto tomou como base o canal do Youtube Investidor Internacional que ori
 
 # Referências
 
-Canal Investidor Internacional: <https://www.youtube.com/@investidorint>
-Video sobre o código original: <https://www.youtube.com/watch?v=uIg-GsUgdFE&t>
-Código original: <https://github.com/lmajowka/webloteria>
-Projeto Web Loteria: <https://lmajowka.github.io/webloteria/>
+* Canal Investidor Internacional: <https://www.youtube.com/@investidorint>
+* Video sobre o código original: <https://www.youtube.com/watch?v=uIg-GsUgdFE&t>
+* Código original: <https://github.com/lmajowka/webloteria>
+* Projeto Web Loteria: <https://lmajowka.github.io/webloteria/>
 
 # Sobre o Projeto
 

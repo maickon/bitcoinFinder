@@ -12,6 +12,10 @@ Este projeto tomou como base o canal do Youtube Investidor Internacional que ori
 * Código original: <https://github.com/lmajowka/webloteria>
 * Projeto Web Loteria: <https://lmajowka.github.io/webloteria/>
 
+# Configuração e Instalação
+
+Confira o artigo neste link: <https://blog.mksoft.com.br/2024/07/19/como-encontrar-bitcoins-usando-google-app-script/>.
+
 # Sobre o Projeto
 
 Desde a primeira vez que conheci o canal, eu achei interesante o projeto mas sempre imaginei que o ideal seria que este script rodasse sozinho sem minha intervenção. Por isso, quando percebi que seria possível implementa-lo dentro do GoogleAppScript, eu acreditei que seria interessante ter um código que procurasse resolver os puzzles do desafio 🔥 ~1000 BTC Bitcoin Challenge Transaction diariamente sem que eu precisasse ficar rodando o código manualmente.
@@ -20,11 +24,11 @@ Desde a primeira vez que conheci o canal, eu achei interesante o projeto mas sem
 
 Para quem não conhece, em 2015, para mostrar toda a imensidão do espaço da chave privada (ou talvez apenas por diversão), alguém criou um “quebra-cabeça” onde ela disponibilizava um range (intervalo entre dois espaços) de chaves privadas e o endereço de sua respectiva carteira Bitcoin.
 
-Dessa forma, seguindo as regras sobre os algoritimos criptográficos que regem o Bitcoin, podemos ser capazes de descobrir a chave privada de uma carteira Bitcoin simplesmente sorteando os dos valores deste range e verificando através dos algoritmos criptográficos se aquela chave privada escolhida gera uma chave pública de carteira Bitcoin. Caso esta verificação seja verdadeira, meu parabéns! você acaba de ganhar uma bolada na loteria Bitcoin!
+Dessa forma, seguindo as regras sobre os algoritimos criptográficos que regem o Bitcoin, podemos ser capazes de descobrir a chave privada de uma carteira Bitcoin simplesmente sorteando os dos valores deste range e verificando através dos algoritmos criptográficos se aquela chave privada escolhida gera uma chave pública válida de carteira Bitcoin. Caso esta verificação seja verdadeira, meu parabéns! você acaba de ganhar uma bolada na loteria Bitcoin!
 
 Desta forma, tudo que o código deste projeto busca resolver é encontrar uma chave privada válida dentro da imensidão deste esppaço. Como é matemáticamente quase impossível achar este valor. O criador deste desafio o fez com total segurança de que ele nunca seria completado. Só para você ter uma ideia da grandeza deste espaço, imagina esconder algo no universo que pode estar dentro de qualquer lugar, inclusive de um átomo. 
 
-Você é livre para iniciar a sua busca a partir de qualquer ponto no universo. Mas depois de iniciado a busca, você só dependerá de suas pernas para se locomover. Conseguiu imaginar isso? Esse é um exemplo do grau de dificuldade que você vai enfrentar ao tentar achar uma chave provada usando este script. 
+Você é livre para iniciar a sua busca a partir de qualquer ponto no universo. Mas depois de iniciado a busca, você só dependerá de suas pernas para se locomover no espaço. Conseguiu imaginar isso? Esse é um exemplo do grau de dificuldade que você vai enfrentar ao tentar achar uma chave privada usando este script. 
 
 ## Nível de dificuldade
 

@@ -18,6 +18,9 @@
 // [bitcoin-puzzle] https://privatekeys.pw/puzzles/bitcoin-puzzle-tx
 // [site mksoft] https://mksoft.com.br/
 
+// coloque seus emails aqui
+const EMAILS_TO = 'maickon4developers.redmi12@gmail.com;maickon2test@gmail.com';
+
 function saveWallet(key, value) {
   const scriptProperties = PropertiesService.getScriptProperties();
   scriptProperties.setProperty(key, value);
@@ -147,11 +150,8 @@ database:
 
 
 // Exemplo de uso da função sendEmail
-function sendMail(message) {
-  let to = 'maickon4developers.redmi12@gmail.com;maickon2test@gmail.com';
-  let subject = 'Mensagem do APP BitcoinFinder';
-  let body = message;
-
+function sendMail(body, subject) {
+  let to = EMAILS_TO;
   GmailApp.sendEmail(to, subject, body);
 }
 
@@ -170,7 +170,12 @@ function loop(wallet) {
       log('FINALIZANDO...');
       log('CHAVE PRIVADA ENCONTRADA: ' + privateKeyInt.toString(16));
       saveWallet('PRIVATE_KEY', privateKeyInt.toString(16));
-      sendMail(`UMA CAHVE PRIVADA FOI ENCONTRADA: ${privateKeyInt.toString(16)} TU TA RICO!`);
+      const mailMessage = `
+PARABÉNS!!! HOJE É O SEU DIA! A CHAVE PRIVADA DA CARTEIRA ${wallet.id} FOI ENCONTRADA
+CHAVE PRIVADA ENCONTRADA: ${privateKeyInt.toString(16)}
+CARA, TU TA RICO!!! kkkkk`;
+      const mailSubject = `Mensagem do APP BitcoinFinder - Wallet ${wallet.id}`;
+      sendMail(mailMessage, mailSubject);
       return; // Stop the loop
     }
     privateKeyInt++;

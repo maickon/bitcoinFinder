@@ -14,7 +14,7 @@ Este projeto tomou como base o canal do Youtube Investidor Internacional que ori
 
 # Configuração e Instalação
 
-Confira o artigo neste link abaixo:
+Confira o artigo neste link abaixo:<br>
 <https://blog.mksoft.com.br/2024/07/19/como-encontrar-bitcoins-usando-google-app-script/>.
 
 # Sobre o Projeto

@@ -11,6 +11,7 @@ Este projeto tomou como base o canal do Youtube Investidor Internacional que ori
 * Video sobre o código original: <https://www.youtube.com/watch?v=uIg-GsUgdFE&t>
 * Código original: <https://github.com/lmajowka/webloteria>
 * Projeto Web Loteria: <https://lmajowka.github.io/webloteria/>
+* Site do desafio Bitcoin: <https://privatekeys.pw/puzzles/bitcoin-puzzle-tx>
 
 # Configuração e Instalação
 
